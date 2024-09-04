@@ -14,6 +14,8 @@ public class Test {
 #### ``Resolution: HierarchyChecker class``
 
 ### 2. Create composition and aggregation example.
+#### ``Resolution: CompositionCreator class``
+#### ``Resolution: AggregationCreator class``
 
 ### 3. Analyze the code and explain which of the methods will run
 
