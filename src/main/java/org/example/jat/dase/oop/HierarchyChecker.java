@@ -5,19 +5,9 @@ import lombok.EqualsAndHashCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 /*
 1. Analyze the hierarchy of classes and the code. Will the code be compiled and running?
-A->B->C (Class A is a parent of Class B, Class B is a parent of Class C)
-
-public class Test {
-public static void main(String[] args) {
-    A ab = new B();
-    A ac = new C();
-    C cb = (C) new B();
-}
-}
- */
+*/
 
 public class HierarchyChecker {
     private static final Logger log = LoggerFactory.getLogger(HierarchyChecker.class);
