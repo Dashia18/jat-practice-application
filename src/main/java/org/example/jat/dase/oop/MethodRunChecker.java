@@ -22,9 +22,10 @@ Therefore, the method1(String o) method will be invoked.
  */
 public class MethodRunChecker {
     public static void main(String[] args) {
-        MethodRunChecker t1= new MethodRunChecker();
+        MethodRunChecker t1 = new MethodRunChecker();
         t1.method1(null);
     }
+
     public void method1(Object o) {
         System.out.println("object call");
     }
