@@ -79,6 +79,10 @@ public class CompositionCreator {
     static class Book {
         private String title;
         private String author;
+        /*
+         The Book class has a list of BookPage objects,
+         but the BookPage objects cannot exist independently of any Book.
+         */
         private List<BookPage> pages;
 
         public Book(String title, String author) {
