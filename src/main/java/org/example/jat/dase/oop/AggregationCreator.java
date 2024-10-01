@@ -92,8 +92,8 @@ public class AggregationCreator {
         @Override
         public String toString() {
             StringBuilder sb = new StringBuilder(name + ": \n");
-            for (MusicRecord record : musicRecords) {
-                sb.append("  - ").append(record.toString()).append("\n");
+            for (MusicRecord musicRecord : musicRecords) {
+                sb.append("  - ").append(musicRecord.toString()).append("\n");
             }
             return sb.toString();
         }
